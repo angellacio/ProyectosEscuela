@@ -122,16 +122,16 @@ public class EvidenciaFinal {
 
                 switch (sOpcionCitas) {
                     case "1":
-                        EvidenciaFinal_ClientesManejo.MuestraMenuPacientes();
+                        EvidenciaFinal_ClientesManejo.MuestraMenu();
                         break;
                     case "2":
-                        EvidenciaFinal_DoctoresManejo.MuestraMenuDoctores();
+                        EvidenciaFinal_DoctoresManejo.MuestraMenu();
                         break;
                     case "3":
-                        EvidenciaFinal_CitasManejo.MuestraMenuCitas();
+                        EvidenciaFinal_CitasManejo.MuestraMenu();
                         break;
                     case "4":
-                        EvidenciaFinal_UsuariosManejo.MuestraMenuUsuarios();
+                        EvidenciaFinal_UsuariosManejo.MuestraMenu();
                         break;
                     case "X":
                         bolSigeEvidencia = false;
